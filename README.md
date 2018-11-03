@@ -10,7 +10,7 @@ Then ```npm start```.
 
 ---
 
-```/getFontsFromGoogleApi``` fetches fonts from the google api
-```/paginate``` breaks the json file into separate json files, with 10 entries each 
-```/api/getJson``` enpoint that fetches a json each time the scroll reaches the end
-```/api/filter``` endpoint for filtering fonts
+- ```/getFontsFromGoogleApi``` fetches fonts from the google api
+- ```/paginate``` breaks the json file into separate json files, with 10 entries each 
+- ```/api/getJson``` enpoint that fetches a json each time the scroll reaches the end
+-```/api/filter``` endpoint for filtering fonts
