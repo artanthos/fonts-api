@@ -1,0 +1,12 @@
+api
+-----------------------
+DONE // save to json
+DONE // make multiple jsons -- for pagination
+DONE // endpoint with pagination
+DONE // search
+
+client
+--------------------
+DONE // fetch entries
+DONE // infinite scroll
+DONE // fetch by filter

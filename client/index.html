@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Fonts API</title>
+    <link rel="stylesheet" href="css/compiled/main.css">
+</head>
+
+<body>
+    <button>See Ggl Fonts</button>
+
+    <div class="modal">
+        <div class="curtain"></div>
+        <div class="modal-wrapper">
+            <div class="title">
+                <span>Google Fonts Manager</span>
+                <span class="close" data-target="modal">&times;</span>
+            </div>
+            <div class="search"><input type="text" placeholder="Search for fonts" /></div>
+            <div class="loading">
+                <img src="./img/loading.gif" width="20" height="20" alt="loading">
+            </div>
+            <div class="error"></div>
+            <div class="list-wrap">
+                <div class="list"></div>
+            </div>
+            <div class="filtered"></div>
+            <div class="font-info">
+                <div class="info-list"></div>
+                <span class="close close-font-info" data-target="info-list">&times;</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
