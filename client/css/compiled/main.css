@@ -107,7 +107,7 @@ button {
   .font-info .close-font-info {
     background: #fff;
     border-radius: 30px;
-    position: fixed !important;
+    top: 20px;
     left: 0;
     right: -350px !important;
     margin: 0 auto;

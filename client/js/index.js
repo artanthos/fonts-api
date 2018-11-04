@@ -115,9 +115,9 @@ class Fonts {
         let identifier = btn.getAttribute(`data-fetch-config`),
             fontConfig = cfg.fontCollection[identifier];
             //document.querySelector(`[data-font-config="${identifier}"]`).innerHTML;
-        cfg.dom.fontInfoList.innerHTML = ``;
+        cfg.dom.fontInfoList.innerHTML = "";
         Object.entries(fontConfig).map( entry => {
-            cfg.dom.fontInfo.innerHTML += `<p><strong>${entry[0]}</strong>: ${entry[1]}</p>`;
+            cfg.dom.fontInfoList.innerHTML += `<p><strong>${entry[0]}</strong>: ${entry[1]}</p>`;
         } );
         cfg.dom.fontInfo.classList.add('visible');
     }
